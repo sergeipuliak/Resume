@@ -8,103 +8,125 @@
         <meta name="description" content="Это сайт - резюме Сергея Пуляка" >
 
         <title>Sergei Resume</title>
+        <link rel="stylesheet" href="Resume.css">
+       
     </head>
     <body>
 
-        <img src="Avatar.jpg" alt="Сергей Пуляк" width="200">
+        <div class="container">
 
-        <h1>Сергей Пуляк</h1>
+            <div class="info">
 
-        <p>Я начинающий <strong>программист в IT</strong> сфере и хочу освоить специальность в области 
-            <strong>frontend-разработка.</strong></p>
+                <img src="Avatar.jpg" alt="Сергей Пуляк" class="avatar">
 
-        <p>Я люблю <em>свою семью, отдых у моря, путешествовать и программировать.</em></p>
+                <div class="info-text">
+                    <h1>Сергей Пуляк</h1>
 
-        <h4>Список социальных сетей:</h4>
+                    <p>Я начинающий <strong>программист в IT</strong> сфере и хочу освоить специальность в области 
+                        <strong>frontend-разработка.</strong></p>
 
-        <a href="https://t.me/PuliakSergei" target="_blank"> Telegram</a> 
-        |
-        <a href="https://wa.me/375297726069" target="_blank"> WhatsApp</a> 
-        |
-        <a href="https://ok.ru/notifications" target="_blank">Однокласники</a> 
+                    <p>Я люблю <em>свою семью, отдых у моря, путешествовать и программировать.</em></p>
+                    <br>
 
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Путешествовать.</li>
-            <li>Сплав на байдарках.</li>
-            <li>Сноуборд.</li>
-            <li>World of tanks</li>
-        </ol>
+                    <h4>Список социальных сетей:</h4>
 
-        <h2>Опыт работы</h2>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Область</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Воинская часть 06752</td>
-                    <td>Начальник хранилища АТИ</td>
-                    <td>2003-2005</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>Воинская часть 06752</td>
-                    <td>Старший воздушный радист Ан-26</td>
-                    <td>2005-2020</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>Воинская часть 06752</td>
-                    <td>Старший авиационный техник СиД</td>
-                    <td>2020-2022</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>Воинская часть 06752</td>
-                    <td>Помощник начальника расчета СиД</td>
-                    <td>2022-2023</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>Воинская часть 06752</td>
-                    <td>Начальник расчета СиД</td>
-                    <td>2023-по н.вр.</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2>Связаться сомной</h2>
-
-        <form action="/">
-            <div>
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите имя">
+                    <a href="https://t.me/PuliakSergei" target="_blank"> Telegram</a> 
+                        |
+                    <a href="https://wa.me/375297726069" target="_blank"> WhatsApp</a> 
+                        |
+                    <a href="https://ok.ru/notifications" target="_blank">Однокласники</a> 
+                </div>
+            </div>
+            
+            
+            <div class="card yellow">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li>Путешествовать.</li>
+                    <li>Сплав на байдарках.</li>
+                    <li>Сноуборд.</li>
+                    <li>World of tanks</li>
+                </ol>
             </div>
 
-            <div>
-                <label for="email"> Ваш email: </label>
-                <input type="email" id="email" placeholder="Введите email">
+            <div class="card blue">
+                <h2>Опыт работы</h2>
+                
+                <table class="table">
+                    <!-- <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Область</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        <tr>
+                            <td>Воинская часть 06752</td>
+                            <td>Начальник хранилища АТИ</td>
+                            <td>2003-2005</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Воинская часть 06752</td>
+                            <td>Старший воздушный радист Ан-26</td>
+                            <td>2005-2020</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Воинская часть 06752</td>
+                            <td>Старший авиационный техник СиД</td>
+                            <td>2020-2022</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Воинская часть 06752</td>
+                            <td>Помощник начальника расчета СиД</td>
+                            <td>2022-2023</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Воинская часть 06752</td>
+                            <td>Начальник расчета СиД</td>
+                            <td>2023-по н.вр.</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <div>
-                <label for="massage">Ваше сообщение:</label>
-                <br>
-                <textarea name="" id="massage" cols="29" rows="8" placeholder="Введите сообщение..."></textarea>
+            <div class="card green">
+                
+
+                <form action="/" class="form">
+                    <h2>Связаться сомной</h2>
+                    
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Введите имя">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"> Ваш email: </label>
+                            <input type="email" id="email" placeholder="Введите email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="massage">Ваше сообщение:</label>
+                        <textarea name="" id="massage" cols="29" rows="8" placeholder="Введите сообщение..."></textarea>
+                    </div>
+
+                    <button class="btn" type="submit"> Отправить </button>
+
+                </form>
             </div>
-
-            <button type="submit"> Отправить </button>
-
-        </form>
+        </div>
 
     </body>
 </html>
